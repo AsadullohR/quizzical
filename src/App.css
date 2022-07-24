@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #F5F7FB;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-conent--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.title {
+  font-size: 2rem;
+  color: #293264;
+  font-family: 'Karla', 'Inter', sans-serif;
+  align-self: center;
+}
+
+.description {
+  align-self: center;
+  margin: 0.5rem auto 2rem auto;
+  font-size: 1rem;
+  color: #293264;
+}
+
+.cta-btn {
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+  width: 12rem;
+  height: 3rem;
+  border-radius: 15px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.yellow-img {
+  position: absolute;
+  left: 100%;
+  right: 0;
+  top: 0;
+  width: 20rem;
+  z-index: -1;
+  position: sticky;
+
+}
+
+.blue-img {
+  /* position: absolute; */
+  left: 0;
+  bottom: 0;
+  width: 20rem;
+  z-index: -1;
+  position: sticky;
+}
+
+/* QUESTION */
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 10rem 0 10rem;
+}
+
+.question {
+  color: #293264;
+  font-family: 'Karla', 'Inter', sans-serif;
+}
+
+.options-container--list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0 8rem;
+}
+
+.options-container--list>li {
+  text-decoration: none;
+}
+
+.option-btn {
+  width: auto;
+  border-color: #4D5B9E;
+  background-color: #F5F7FB;
+  color: #293264;
+  padding: 0.4rem 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  border-width: 0.79px;
+  cursor: pointer;
+}
+
+.option-btn--selected {
+  background-color: #D6DBF5;
+  border-color: #000000;
+}
+
+.option-btn--result_correct {
+  background-color: #94D7A2;
+  border-color: #000000;
+}
+
+.option-btn--result_incorrect {
+  background-color: #F8BCBC;
+  border-color: #000000;
+}
+
+
+.divider {
+  border: solid 0.79px #DBDEF0;
+  margin-top: 1.5rem;
+}
+
+.check-answers--btn {
+  margin: 2rem 47% 2rem 47%;
+}
